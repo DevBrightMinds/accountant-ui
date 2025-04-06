@@ -1,0 +1,132 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates&family=Space+Grotesk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates&family=Space+Grotesk:wght@400;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    background: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+header {
+    background: whitesmoke;
+    box-shadow: 1px 1px 1px #cccccc;
+}
+
+header .app-header-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header .app-header-content {
+    display: flex;
+    justify-content: space-between;
+    line-height: 0;
+    padding: 10px;
+}
+
+header .app-header-content .logo h4 {
+    font-weight: bolder;
+    margin: 0;
+    color: #000000;
+}
+
+header .app-header-content .logo small {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-style: italic;
+    color: #2563EB;
+}
+
+header .app-header-content .nav-menu ul {
+    display: flex;
+    margin: 10px;
+}
+
+header .app-header-content .nav-menu ul li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+header .app-header-content .nav-menu ul li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header .app-header-content .nav-menu ul li a.active {
+    background-color: #2563EB;
+    color: #ffffff;
+    box-shadow: 1px 1px 1px #cccccc;
+}
+
+header .app-header-content .nav-menu ul li a:hover {
+    background-color: #2563EB;
+    color: #ffffff;
+    box-shadow: 1px 1px 1px #cccccc;
+    border-radius: 5pc 0 5pc 0;
+}
+
+
+
+.home-base-content {
+    margin: 2px 0 0 0;
+    background-color: #2563EB;
+    color: #ffffff;
+    height: 300px;
+}
+
+.home-base-content .base-content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+}
+
+.home-base-content .base-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-base-content .description {
+    width: 40%;
+}
+
+.home-base-content .services-desc span {
+    font-weight: bolder;
+}
+
+.home-base-content .services-desc div {
+    margin: 10px 0 10px 0;
+}
+
+.app-btn {
+    width: 15%;
+    cursor: pointer;
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+}
+
+.app-btn:hover {
+    background-color: #071c4b;
+    color: #ffffff;
+}
+
+.app-btn-grey {
+    background: whitesmoke;
+}
