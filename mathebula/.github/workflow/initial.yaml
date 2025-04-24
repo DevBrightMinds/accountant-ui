@@ -21,7 +21,7 @@ jobs:
         node-version: latest
 
     - name: Install Dependencies
-      uses: npm ci
+      run: npm ci
 
     - name: Build Dist Files
-      uses: npm run build
+      run: npm run build
