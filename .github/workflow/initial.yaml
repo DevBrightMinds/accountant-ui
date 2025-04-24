@@ -1,0 +1,27 @@
+name: Build App Docker Image
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Get App Code
+      uses: actions/checkout@v4
+
+    - name: Install NodeJS
+      uses: actions/checkout@v4
+      with:
+        node-version: latest
+
+    - name: Install Dependencies
+      run: npm ci
+
+    - name: Build Dist Files
+      run: npm run build
